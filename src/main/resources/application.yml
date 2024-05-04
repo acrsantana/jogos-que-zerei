@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Jogos que Zerei
+    client:
+      giantbomb:
+        apikey: ${GIANT_BOMB_API_KEY}
+        url: https://www.giantbomb.com/api
+server:
+  port: 8090
